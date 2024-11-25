@@ -1,0 +1,48 @@
+# Ignore IDE files
+/.idea/
+/.vscode/
+
+# Ignore system files
+*.DS_Store
+Thumbs.db
+
+# Ignore logs and debug files
+*.log
+*.cache
+
+# Ignore composer files
+/vendor/
+/composer.lock
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore temporary files and session data
+/tmp/
+/cache/
+/sessions/
+
+# Ignore PHPUnit result cache
+.phpunit.result.cache
+
+# Ignore Laravel specific files
+/storage/*
+!/storage/.gitignore
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Ignore other frameworks or CMS specific files
+/.env.testing
+/node_modules/
+public/storage
+public/hot
+/storage/debugbar
+/storage/framework/*
+/storage/logs/*
+.env.backup
+*.env
+
+# Ignore upload directories (if any)
+uploads/
